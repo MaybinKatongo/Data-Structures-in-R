@@ -1,0 +1,72 @@
+---
+title: "Data Structures in R"
+author: "Maybin Katongo"
+date: "8/23/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Data Structures in R
+
+This Document explains in summary some of the data structures in R programining.
+
+## Atomic Vectors
+* An atomic vector is just a simple vector in R
+```{r }
+die <- c(1, 2, 3, 4, 5, 6)
+die
+# Check if data structures
+is.vector(die)
+typeof(die)
+```
+
+## Integers
+Integers are numbers that can be written without a decimal component
+You create integers values by put L in front of a number
+
+```{r}
+int <- 1L
+print(int)
+# Check type of data type
+typeof(int)
+
+```
+
+## Doubles
+Double are numbers in R with digits to the right of the decimal or not and can either be positive of negative. R will save any number the you type in R as double
+
+
+```{r}
+die <- c(1, 2, 3, 4, 5, 6)
+print(die)
+# Check type of data type
+typeof(die)
+
+```
+
+
+## Characters
+A character vector stores small pieces of text
+
+```{r}
+text <- c("Hello", "World")
+print(text)
+# Check type of data type
+typeof(text)
+
+```
+
+
+## Logicals
+Logical vector store TRUEs and FALSEs, R's form of Boolean data.
+Helpful for doing comparisons
+
+```{r}
+logic <- c(TRUE, FALSE, TRUE)
+print(logic)
+# Check type of data type
+typeof(logic)
+````
